@@ -1,24 +1,37 @@
-# books-app
+# Book Management App
 
-## Project setup
-```
+Это приложение для управления книгами, разработанное с использованием Vue.js и JSON Server. Пользователи могут добавлять, редактировать и удалять книги, а также просматривать список всех книг.
+
+## Установка
+
+Следуйте этим шагам, чтобы запустить проект локально:
+
+### 1. Клонируйте репозиторий
+
+Сначала клонируйте репозиторий на ваш компьютер:
+
+git clone https://github.com/TeodorDiver/Book-Manager.git
+
+### 2. Перейдите в папку с проектом
+
+cd books-app
+
+### 3. Установите зависимости
+
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
+### 4. Запустите JSON Server
+
+json-server --watch db.json
+
+### 4. Запустите приложение Vue
+
+в новом терминале:
+
 npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Стек технологий
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue.js - JavaScript фреймворк для создания пользовательских интерфейсов.
+JSON Server - простой способ создать REST API с использованием JSON файла.
+Axios - библиотека для выполнения HTTP-запросов.
